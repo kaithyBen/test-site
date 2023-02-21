@@ -1,6 +1,6 @@
 'use strict'
 
-const title = document.getElementsByName('h1');
+const title = document.getElementById('h1');
 
 title.addEventListener('click', () => {
     alert('You clicked me!!!')
